@@ -8,6 +8,9 @@ var path = require('path'),
     SRC_PATH = path.resolve(__dirname, 'src');
 
 module.exports = {
+    externals: {
+        'angular': 'angular'
+    },
     module: {
         loaders: [
             // babel转换

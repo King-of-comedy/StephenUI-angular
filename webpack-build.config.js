@@ -1,7 +1,6 @@
 var path = require('path'),
     webpack = require('webpack'),
     CleanPlugin = require('clean-webpack-plugin'),
-    HTMLPlugin = require('html-webpack-plugin'),
     COMMON = require('./webpack-common.config');
 
 module.exports = Object.assign(COMMON, {
