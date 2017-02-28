@@ -1,12 +1,13 @@
 {
   "name": "stephen-ui-angular",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "description": "stephen-ui-angular",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "build": "webpack --config webpack-build.config.js"
+    "build": "webpack --config webpack-build.config.js",
+    "publish": "npm run build && npm publish"
   },
   "repository": {
     "type": "git",
