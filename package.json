@@ -1,24 +1,26 @@
 {
   "name": "stephen-ui-angular",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.2",
+  "description": "stephen-ui-angular",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "webpack --config webpack-build.config.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/King-of-comedy/StephenUI-angular.git"
   },
-  "author": "",
+  "author": "mmmaming & fnjoe",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/King-of-comedy/StephenUI-angular/issues"
   },
   "homepage": "https://github.com/King-of-comedy/StephenUI-angular#readme",
   "dependencies": {
-    "angular": "^1.6.2"
+    "angular": "^1.6.2",
+    "clean-webpack-plugin": "^0.1.15"
   },
   "devDependencies": {
     "babel-core": "^6.22.1",
