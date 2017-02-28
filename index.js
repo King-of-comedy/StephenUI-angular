@@ -1,2 +1,3 @@
 require('./build/stephen-ui');
-module.exports = stephenUi;
+// module.exports = 'stephen.ui';
+module.exports = stephen.name;
